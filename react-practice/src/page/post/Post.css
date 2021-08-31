@@ -1,0 +1,39 @@
+
+.post-view-wrapper {
+    width: 60%;
+    margin: 0 auto;
+    font-family: NanumBarunGothic;
+}
+
+.post-view-go-list-btn {
+    border: 0;
+    padding: 10px;
+    color: white;
+    background-color: #ff6e6e;
+}
+
+.post-view-row {
+    margin: 10px 0;
+    display: flex;
+    border-bottom: 1px solid gray;
+    font-family: NanumBarunGothic;
+}
+
+.post-view-row > label:first-child {
+    margin: 10px 0;
+    width: 30%;
+    font-weight: bold;
+}
+
+.post-view-row > *:nth-child(2) {
+    margin: 10px 0;
+    width: 70%;
+}
+
+.post-view-go-list-btn{
+    font-family: NanumBarunGothic;
+}
+
+.post-view-go-list-btn:hover{
+    cursor: pointer;
+}
